@@ -1,0 +1,157 @@
+/*COMMON CODE FOR ALL WEBPAGE*/
+
+	a{text-decoration: none;}
+
+	.fa{padding: 5px; font-size: 25px; width: 50px; text-decoration: none;}
+
+	.font{text-shadow: 2px 2px red; font-family: 'Oleo Script Swash Caps', cursive}
+
+	p{text-shadow: 2px 2px black; font-family: Avengero;}
+
+	.image{width: 245px; border-radius: 10px}
+
+	img.image:hover{transform: scale(1.1); opacity: 0.8}
+
+	.padding {padding-top: 10px}
+
+/*Avengereo Font Link*/
+
+	@import url(//db.onlinewebfonts.com/c/6cf5fc945fa852cfb8e613e984713d91?family=Avengero);
+
+	@font-face {font-family: "Avengero"; src: url("//db.onlinewebfonts.com/t/6cf5fc945fa852cfb8e613e984713d91.eot"); 
+	src: url("//db.onlinewebfonts.com/t/6cf5fc945fa852cfb8e613e984713d91.eot?#iefix") format("embedded-opentype"), 
+	url("//db.onlinewebfonts.com/t/6cf5fc945fa852cfb8e613e984713d91.woff2") format("woff2"), 
+	url("//db.onlinewebfonts.com/t/6cf5fc945fa852cfb8e613e984713d91.woff") format("woff"), 
+	url("//db.onlinewebfonts.com/t/6cf5fc945fa852cfb8e613e984713d91.ttf") format("truetype"), 
+	url("//db.onlinewebfonts.com/t/6cf5fc945fa852cfb8e613e984713d91.svg#Avengero") format("svg"); }
+
+/*Space Age Font Link*/
+
+	@import url(//db.onlinewebfonts.com/c/c936f19b94fa45553ab39066333e00aa?family=Space+Age);
+
+	@font-face {font-family: "Space Age"; src: url("//db.onlinewebfonts.com/t/c936f19b94fa45553ab39066333e00aa.eot"); 
+	src: url("//db.onlinewebfonts.com/t/c936f19b94fa45553ab39066333e00aa.eot?#iefix") format("embedded-opentype"), 
+	url("//db.onlinewebfonts.com/t/c936f19b94fa45553ab39066333e00aa.woff2") format("woff2"), 
+	url("//db.onlinewebfonts.com/t/c936f19b94fa45553ab39066333e00aa.woff") format("woff"), 
+	url("//db.onlinewebfonts.com/t/c936f19b94fa45553ab39066333e00aa.ttf") format("truetype"), 
+	url("//db.onlinewebfonts.com/t/c936f19b94fa45553ab39066333e00aa.svg#Space Age") format("svg"); }
+
+/*HOME*/
+
+	h2.Head1{word-spacing: 10px; text-shadow: 2px 2px red; font-family: Space Age;}
+
+	h4{font-family: Avengero; text-shadow: 2px 2px red;}
+
+	.mod1{ border-radius: 10px; width: 100%}
+	
+	.mod2{padding-top: 10px}
+
+	.body1{	background-image: url("images/background/bg1.jpg");
+		 	background-attachment: fixed;
+		 	background-size: cover;}
+	
+/*PC GAMES, PLAYSTATION AND SOFTWARES*/
+
+	.card {	overflow: hidden;
+			position: relative;
+			cursor: pointer;
+			border-radius: 20px;}		
+
+	.card:hover .details{opacity: 1; height: 100%;}
+
+	.details{color: white;
+			position: absolute;
+			left: 0;
+			bottom:0;
+			width: 100%;
+			height: 0;
+			opacity: 0;
+			background: rgba(0, 0, 0, 0.9) ;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			transition: 0.5s ease;}
+
+	.para{font-family: sans-serif;}
+
+	h2.Head2{word-spacing: 10px; text-shadow: 2px 2px green; font-family: Space Age;}
+
+	.body2{	background-image: url("images/background/bg2.jpg"); 
+			background-attachment: fixed;
+			background-size: cover;
+			background-position: left;}
+
+	h2.Head3{word-spacing: 10px; text-shadow: 2px 2px blue; font-family: Space Age;}
+
+	video{width: 100%}
+
+	.body3{	background-image: url("images/background/bg3.jpg");
+			background-attachment: fixed;
+			background-size: cover;}
+
+	h2.Head5{text-shadow: 2px 2px dodgerblue; font-family: Space Age;}
+
+	.body5{	background-image: url("images/background/bg5.jpg");
+			background-attachment: fixed;
+			background-size: cover;
+			background-position: bottom;}
+
+/*ANTI-VIRUS*/
+
+	h2.Head4{word-spacing: 10px; text-shadow: 2px 2px dodgerblue; font-family: Space Age;}
+
+	.body4{	background-image: url("images/background/bg4.jpg");
+			background-attachment: fixed;
+			background-size: cover;}
+			
+/*NEWS*/
+
+	.image1{width: 100%; padding-top: 15px}
+
+	.mod3{width: 400px;}
+
+	iframe{height: 480px; width: 100%; padding-top: 27px; border: none}
+
+	h2.Head6{text-shadow: 2px 2px #03e9f4; font-family: Space Age;}
+		
+	.body6{	background-image: url("images/background/bg6.jpg");
+			background-attachment: fixed;
+			background-size: cover;}
+
+/*CONTACT US*/
+
+	h1.Head7{text-shadow: 2px 2px dodgerblue; font-family: Space Age;}
+
+	.body7{	background-image:url("images/background/bg7.jpg");
+			background-size: cover;
+			background-attachment: fixed;
+			background-position: left;}
+
+/*ABOUT*/
+
+	h1.Head8{text-shadow: 2px 2px green; font-family: Space Age;}
+
+	h3.Head9{text-shadow: 2px 2px black; font-family: 'Oleo Script Swash Caps', cursive}
+
+	.body8{	background-image: url("images/background/bg8.jpg");
+			background-attachment: fixed;
+			background-size: cover;}	
+
+/*LOGIN*/
+
+	h2.Head10{text-shadow: 2px 2px yellow; font-family: Avengero;}
+
+	.body9{	background-image: url("images/background/bg9.jpg");
+			background-attachment: fixed;
+			background-size: cover;}
+
+/*CREATE ACCOUNT*/
+
+	h2.Head11{text-shadow: 2px 2px red; font-family: Avengero;}
+
+	.mod4{width: 550px; padding-right: 100px; padding-top: 50px}
+
+	.body10{background-image: url("images/background/bg10.jpg");
+			background-attachment: fixed;
+			background-size: cover;
+			background-position:left;}

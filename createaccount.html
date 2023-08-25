@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CREATE AN ACCOUNT</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Icon Link 1 -->
+	<link rel="icon" type="image/x-icon" href="images/icon.ico">
+	
+	<!-- w3-css file link -->
+	<link rel="stylesheet" type="text/css" href="w3-css.css">
+
+	<!-- Font Link -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+	<link href="//db.onlinewebfonts.com/c/6cf5fc945fa852cfb8e613e984713d91?family=Avengero" rel="stylesheet" type="text/css"/>
+	<link href="//db.onlinewebfonts.com/c/c936f19b94fa45553ab39066333e00aa?family=Space+Age" rel="stylesheet" type="text/css"/>
+
+	<!-- Icon link 2 -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- CSS Link -->
+	<link rel="stylesheet" type="text/css" href="website.css">
+		
+</head>
+<body class="body10">
+
+	<!-- Logo And Search Bar -->
+	<div class="w3-row w3-black">
+		<div class="w3-col s4 w3-left-align w3-mobile">
+			<div class="w3-xxlarge font">
+				<a href="index.html"><img class="w3-circle" src="images/logo.gif" height="50px"></a>
+				Arcadius
+			</div>
+		</div>
+
+		<div class="w3-col s8 w3-right-align w3-mobile" style="padding-top: 14px">
+			<form onsubmit="alert('This function is not working yet. You need to set JavaScript for this function.')">
+			<a href="login.html" style=" font-family: Space Age" class="w3-text-green w3-large">LOGIN</a>&nbsp;&nbsp;
+				<input type="text" placeholder="Enter Here" required="">
+				<button type="submit" class="w3-hover-green">Search</button>
+			</form>
+		</div>
+	</div>
+
+	<!-- Navigation Bar with Dropdown Button -->
+	<nav class="w3-container w3-pink w3-center" style="font-family: Avengero">
+		<div class="w3-dropdown-hover w3-mobile">
+			<button class="w3-button w3-pink w3-hover-deep-orange">GAMES</button>
+				<div class="w3-dropdown-content w3-bar-block w3-card-4">
+					<a href="pcgame.html" class="w3-bar-item w3-button w3-hover-deep-orange">PC GAMES</a>
+					<a href="playstation.html" class="w3-bar-item w3-button w3-hover-deep-orange">PLAYSTATION GAMES</a>		
+				</div>
+		</div>
+
+		<div class="w3-dropdown-hover w3-mobile">
+			<button class="w3-button w3-pink w3-hover-purple">SOFTWARES</button>
+				<div class="w3-dropdown-content w3-bar-block w3-card-4">
+					<a href="antivirus.html" class="w3-bar-item w3-button w3-hover-purple">ANTI-VIRUS</a>
+					<a href="softwares.html" class="w3-bar-item w3-button w3-hover-purple">OTHER SOFTWARES</a>		
+				</div>
+		</div>
+			<a href="news.html"><button class="w3-button w3-mobile w3-hover-blue">NEWS</button></a>
+			<a href="contact.html"><button class="w3-button w3-mobile w3-hover-green">CONTACT ME</button></a>
+			<a href="about.html"><button class="w3-button w3-mobile w3-hover-aqua">ABOUT</button></a>
+	</nav>
+
+	<!-- CREATE AN ACCOUNT -->
+	<div class="w3-display-right mod4">
+		<form class="w3-text-black w3-card-4 w3-round-large w3-grey" onsubmit="alert('Thank You for Creating Account. Your User Id and Password will be Send to your email')">
+
+			<h2 class="Head11 w3-center w3-text-black">CREATE ACCOUNT</h2>
+			<Label for="first"><b>FIRST NAME</b></Label>
+			<input type="text" id="first" placeholder="enter your first name" class="w3-input" minlength="3" autocomplete="off" required="">
+
+			<Label for="last"><b>LAST NAME</b></Label>
+			<input type="text" id="last" placeholder="enter your last name" class="w3-input" minlength="3" autocomplete="off" required="">
+
+			<Label for="display"><b>DISPLAY USERNAME</b></Label>
+			<input type="text" id="display" placeholder="enter here" class="w3-input" autocomplete="off" required="">
+
+			<Label for="age"><b>AGE</b></Label>
+			<input type="number" id="age" class="w3-input" placeholder="age" min="18" max="30" autocomplete="off" required="">
+			
+			<Label for="email"><b>EMAIL ID</b></Label>
+			<input type="email" id="email" placeholder="enter your email" class="w3-input" autocomplete="off" required="">
+
+			<Label for="country"><b>COUNTRY</b></Label>
+			<input type="text" id="country" placeholder="enter here" class="w3-input" autocomplete="off" required="">
+
+			<Label for="pswd"><b>CREATE NEW PASSWORD</b></Label>
+			<input type="password" id="pswd" placeholder="enter new password" class="w3-input" autocomplete="off" required=""><br>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			<button type="Submit" class="w3-deep-orange">Submit</button>
+			<button type="Reset" class="w3-pink">Reset</button>
+		</form>
+	</div>
+
+	<!-- Footer -->
+	<footer class="w3-bar w3-center w3-large w3-black w3-bottom">
+		<div class="w3-row">
+			<div class="w3-col s6 w3-mobile">
+				<a href="">Request Us</a>
+			</div>
+
+			<div class="w3-col s6 w3-mobile">Follow Us
+				<a href="#" class="fa fa-youtube w3-hover-red">	 	</a>
+				<a href="#" class="fa fa-facebook w3-hover-blue">  	</a>
+				<a href="#" class="fa fa-instagram w3-hover-pink"> 	</a>
+				<a href="#" class="fa fa-twitter w3-hover-blue">   	</a>	
+				<a href="#" class="fa fa-pinterest w3-hover-red"> 	</a>
+			</div>
+		</div>
+		
+		<div class="w3-mobile">Maintained By Dushyant | &#169;2022-23 CopyRight All Rights Reserved.</div>
+	</footer>
+	
+</body>
+</html>				

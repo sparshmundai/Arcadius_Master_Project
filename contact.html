@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CONTACT ME</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Icon Link 1 -->
+	<link rel="icon" type="image/x-icon" href="images/icon.ico">
+
+	<!-- w3-css file link -->
+	<link rel="stylesheet" type="text/css" href="w3-css.css">
+
+	<!-- Font Link -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+	<link href="//db.onlinewebfonts.com/c/6cf5fc945fa852cfb8e613e984713d91?family=Avengero" rel="stylesheet" type="text/css"/>
+	<link href="//db.onlinewebfonts.com/c/c936f19b94fa45553ab39066333e00aa?family=Space+Age" rel="stylesheet" type="text/css"/>
+
+	<!-- Icon link 2 -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- CSS Link -->
+	<link rel="stylesheet" type="text/css" href="website.css">
+
+</head>
+<body class="body7">
+
+	<!-- Logo And Search Bar -->
+	<div class="w3-row w3-black">
+		<div class="w3-col s4 w3-left-align w3-mobile">
+			<div class="w3-xxlarge font">
+				<a href="index.html"><img class="w3-circle" src="images/logo.gif" height="50px"></a>
+				Arcadius
+			</div>
+		</div>
+
+		<div class="w3-col s8 w3-right-align w3-mobile" style="padding-top: 14px">
+			<form onsubmit="alert('This function is not working yet. You need to set JavaScript for this function.')">
+			<a href="login.html" style=" font-family: Space Age" class="w3-text-green w3-large">LOGIN</a>&nbsp;&nbsp;
+				<input type="text" placeholder="Enter Here" required="">
+				<button type="submit" class="w3-hover-green">Search</button>
+			</form>
+		</div>			
+	</div>
+
+	<!-- Navigation Bar with Dropdown Button -->
+	<nav class="w3-container w3-red w3-center" style="font-family: Avengero">
+		<div class="w3-dropdown-hover w3-mobile">
+			<button class="w3-button w3-red w3-hover-light-blue">GAMES</button>
+				<div class="w3-dropdown-content w3-bar-block w3-card-4">
+					<a href="pcgame.html" class="w3-bar-item w3-button w3-hover-light-blue">PC GAMES</a>
+					<a href="playstation.html" class="w3-bar-item w3-button w3-hover-light-blue">PLAYSTATION GAMES</a>
+				</div>
+		</div>
+
+		<div class="w3-dropdown-hover w3-mobile">
+			<button class="w3-button w3-red w3-hover-purple">SOFTWARES</button>
+				<div class="w3-dropdown-content w3-bar-block w3-card-4">
+					<a href="antivirus.html" class="w3-bar-item w3-button w3-hover-purple">ANTI-VIRUS</a>
+					<a href="softwares.html" class="w3-bar-item w3-button w3-hover-purple">OTHER SOFTWARES</a>		
+				</div>
+		</div>
+			<a href="news.html"><button class="w3-button w3-mobile w3-hover-green">NEWS</button></a>
+			<a href="contact.html"><button class="w3-button w3-mobile w3-hover-yellow">CONTACT ME</button></a>
+			<a href="about.html"><button class="w3-button w3-mobile w3-hover-grey">ABOUT</button></a>
+	</nav>
+
+	<!-- Contact Details -->
+	<div class="w3-card-4 w3-display-middle w3-round-large w3-padding" style="width: 40%">
+		<form class="w3-text-white" onsubmit="alert('&#128513; Thanks for contact me. We will resolve your query as soon as possible.')">
+			<h1 class="Head7 w3-text-pink w3-center">CONTACT ME</h1>
+
+			<Label for="first" class="w3-large">FIRST NAME</Label>
+			<input type="text" id="first" placeholder="enter first name" class="w3-input" minlength="3" autocomplete="off" required=""/>
+
+			<Label for="last" class="w3-large">LAST NAME</Label>
+			<input type="text" id="last" placeholder="enter last name" class="w3-input" minlength="3" autocomplete="off" required=""/>
+
+			<Label for="email" class="w3-large">EMAIL ID</Label>
+			<input type="email" id="email" placeholder="enter here" class="w3-input" autocomplete="off" required=""/>
+
+			<Label for="mobile" class="w3-large">MOBILE NUMBER</Label>
+			<input type="number" id="mobile" placeholder="enter your number" class="w3-input" autocomplete="off" required=""/>
+
+			<Label for="query" class="w3-large">QUERY</Label>
+			<textarea 	id="query" placeholder="enter your queries" class="w3-input" 
+						minlength="50" maxlength="150" autocomplete="off" required=""/>
+			</textarea><br>&nbsp;&nbsp;
+
+			<button type="submit" class="w3-red">SUBMIT</button>
+		</form>
+	</div>
+
+	<!-- Footer -->
+	<footer class="w3-bar w3-center w3-large w3-black w3-bottom">
+		<div class="w3-row">
+			<div class="w3-col s6 w3-mobile">
+				<a href="">Request Us</a>
+			</div>
+
+			<div class="w3-col s6 w3-mobile">Follow Us
+				<a href="#" class="fa fa-youtube w3-hover-red">	 	</a>
+				<a href="#" class="fa fa-facebook w3-hover-blue">  	</a>
+				<a href="#" class="fa fa-instagram w3-hover-pink"> 	</a>
+				<a href="#" class="fa fa-twitter w3-hover-blue">   	</a>	
+				<a href="#" class="fa fa-pinterest w3-hover-red"> 	</a>
+			</div>
+		</div>
+		
+		<div class="w3-mobile">Maintained By Dushyant | &#169;2022-23 CopyRight All Rights Reserved.</div>
+	</footer>
+	
+</body>
+</html>

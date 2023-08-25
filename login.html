@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LOGIN</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Icon Link 1 -->
+	<link rel="icon" type="image/x-icon" href="images/icon.ico">
+
+	<!-- w3-css file link -->
+	<link rel="stylesheet" type="text/css" href="w3-css.css">
+
+	<!-- Font Link -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps&display=swap" rel="stylesheet">
+	<link href="//db.onlinewebfonts.com/c/6cf5fc945fa852cfb8e613e984713d91?family=Avengero" rel="stylesheet" type="text/css"/>
+	<link href="//db.onlinewebfonts.com/c/c936f19b94fa45553ab39066333e00aa?family=Space+Age" rel="stylesheet" type="text/css"/>
+
+	<!-- Icon Link 2 -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- CSS Link -->
+	<link rel="stylesheet" type="text/css" href="website.css">
+
+</head>
+<body class="body9">
+
+	<!-- Logo And Search Bar -->
+	<div class="w3-row w3-black">
+		<div class="w3-col s4 w3-left-align w3-mobile">
+			<div class="w3-xxlarge font">
+				<a href="index.html"><img class="w3-circle" src="images/logo.gif" height="50px"></a>
+				Arcadius
+			</div>
+		</div>
+
+		<div class="w3-col s8 w3-right-align w3-mobile" style="padding-top: 14px">
+			<form onsubmit="alert('This function is not working yet. You need to set JavaScript for this function.')">
+			<a href="login.html" style=" font-family: Space Age" class="w3-text-green w3-large">LOGIN</a>&nbsp;&nbsp;
+				<input type="text" placeholder="Enter Here" required="">
+				<button type="submit" class="w3-hover-green">Search</button>
+			</form>
+		</div>	
+	</div>
+
+	<!-- Navigation Bar with Dropdown Button -->
+	<nav class="w3-container w3-light-blue w3-center" style="font-family: Avengero">
+		<div class="w3-dropdown-hover w3-mobile">
+			<button class="w3-button w3-light-blue w3-hover-deep-orange">GAMES</button>
+				<div class="w3-dropdown-content w3-bar-block w3-card-4">
+					<a href="pcgame.html" class="w3-bar-item w3-button w3-hover-deep-orange">PC GAMES</a>
+					<a href="playstation.html" class="w3-bar-item w3-button w3-hover-deep-orange">PLAYSTATION GAMES</a>		
+				</div>
+		</div>
+
+		<div class="w3-dropdown-hover w3-mobile">
+			<button class="w3-button w3-light-blue w3-hover-purple">SOFTWARES</button>
+				<div class="w3-dropdown-content w3-bar-block w3-card-4">
+					<a href="antivirus.html" class="w3-bar-item w3-button w3-hover-purple">ANTI-VIRUS</a>
+					<a href="softwares.html" class="w3-bar-item w3-button w3-hover-purple">OTHER SOFTWARES</a>		
+				</div>
+		</div>
+			<a href="news.html"><button class="w3-button w3-mobile w3-hover-green">NEWS</button></a>
+			<a href="contact.html"><button class="w3-button w3-mobile w3-hover-red">CONTACT ME</button></a>
+			<a href="about.html"><button class="w3-button w3-mobile w3-hover-white">ABOUT</button></a>
+	</nav>
+
+	<!-- LOGIN ID-->
+	<div class="w3-padding w3-card-4 w3-round-large w3-display-middle" style="width: 35%">
+		<form class="w3-text-black" onsubmit="alert('Welcome to the Arcadius')">
+			<h2 class="Head10 w3-text-blue w3-center">LOGIN YOUR ACCOUNT</h2>
+			<Label for="first"><b>USER ID</b></Label>
+			<input type="text" id="first" placeholder="enter here" class="w3-input" autocomplete="off" required="">
+
+			<Label for="pwd"><b>PASSWORD</b></Label>
+			<input type="password" id="pwd" placeholder="enter here" class="w3-input" autocomplete="off" required=""><br>
+
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+			<button type="submit" class="w3-blue">Submit</button>
+			<button class="w3-red"><a href="createaccount.html">Create an Account</a></button>
+		</form>
+	</div>
+	
+	<!-- footer -->
+	<footer class="w3-bar w3-center w3-large w3-black w3-bottom">
+		<div class="w3-row">
+			<div class="w3-col s6 w3-mobile">
+				<a href="">Request Us</a>
+			</div>
+
+			<div class="w3-col s6 w3-mobile">Follow Us
+				<a href="#" class="fa fa-youtube w3-hover-red">	 	</a>
+				<a href="#" class="fa fa-facebook w3-hover-blue">  	</a>
+				<a href="#" class="fa fa-instagram w3-hover-pink"> 	</a>
+				<a href="#" class="fa fa-twitter w3-hover-blue">   	</a>	
+				<a href="#" class="fa fa-pinterest w3-hover-red"> 	</a>
+			</div>
+		</div>
+		
+		<div class="w3-mobile">Maintained By Dushyant | &#169;2022-23 CopyRight All Rights Reserved.</div>
+	</footer>
+	
+</body>
+</html>
